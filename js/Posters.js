@@ -33,10 +33,10 @@ AFRAME.registerComponent("comics-posters", {
       const position = { x: posX, y: posY, z: posZ };
       prevoiusXPosition = posX;
 
-      // Border Element
+      // Elemento de borde
       const borderEl = this.createBorder(position, item.id);
 
-      // Poster Element
+      // Elemento de cartel de cine
       const poster = this.createPoster(item);
       borderEl.appendChild(poster);
 
